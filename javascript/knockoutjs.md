@@ -3,7 +3,7 @@
 ## What's that ?
 
 Javascript library that simplifies interaction between the UI (HTML) and the data the user manipulates :
-* UI updating whenever the data model changes
+* UI updating whenever the data model changes by applying the observable pattern on the data
 * Declarative binding
 
 ## What is the ModelViewViewModel Pattern
