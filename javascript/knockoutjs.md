@@ -13,6 +13,10 @@ Javascript library that simplifies interaction between the UI (HTML) and the dat
 * View : represents the UI, mostly HTML, binded to the ViewModel.
 
 
+## Note
+
+The below samples are inspired from the [great knockout tutorials](http://learn.knockoutjs.com/).
+
 ## Static text
 
 ### External resources
