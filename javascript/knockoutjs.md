@@ -39,7 +39,7 @@ ko.applyBindings(new RockerViewModel());
 
 ```
 
-## create a form with knockout
+## Manage user input
 
 ```html
 <body>
@@ -63,12 +63,14 @@ function RockerViewModel() {
 ko.applyBindings(new RockerViewModel());
 ```
 
-## Manage a list of item
+## Manage a list of articles
 
 ### External Resources
 * [bootstrap.js](http://twitter.github.io/bootstrap/assets/js/bootstrap.js)
 * [bootstrap.css](http://twitter.github.io/bootstrap/assets/css/bootstrap.css)
 
+
+### Static version
 
 ```html
 <h2>Votre panier</h2>
