@@ -2,30 +2,22 @@
 
 ## What's that ?
 
+Javascript library that simplifies interaction between the UI (HTML) and the data the user manipulates :
+* UI updating whenever the data model changes
+* Declarative binding
 
-## What is the MVVM Pattern
+## What is the ModelViewViewModel Pattern
+
+* Model : represents the business objects to manipulate
+* ViewModel : represents the data and operations on a UI
+* View : represents the UI, mostly HTML, binded to the ViewModel.
 
 
-## Example with jQuery
+## Static text
 
-```html
-<body>
-    <p>
-        <strong id='prenom'></strong>
-        <strong id='nom'></strong> 
-        rocks !
-    </p>
-</body>
-```
+### External resources
 
-```javascript
-$('#nom').text('Beck');
-$('#prenom').text('Jeff');
-
-```
-
-## Example with knockout
-
+* [knockout.js](http://knockoutjs.com/downloads/knockout-2.2.1.js)
 
 ```javascript
 function RockerViewModel() {
@@ -74,14 +66,14 @@ ko.applyBindings(new RockerViewModel());
 ## Manage a list of item
 
 ### External Resources
-* http://twitter.github.io/bootstrap/assets/js/bootstrap.js
-* http://twitter.github.io/bootstrap/assets/css/bootstrap.css
+* [bootstrap.js](http://twitter.github.io/bootstrap/assets/js/bootstrap.js)
+* [bootstrap.css](http://twitter.github.io/bootstrap/assets/css/bootstrap.css)
 
 
 ```html
 <h2>Votre panier</h2>
 
-<table class="table">
+<table class="table table-hover">
     <thead>
         <tr>
             <th>Article</th><th>Prix unitaire</th><th>Quantité</th><th>Montant</th>
@@ -142,7 +134,7 @@ ko.applyBindings(new PanierViewModel());
 ```html
 <h2>Votre panier</h2>
 
-<table class="table">
+<table class="table table-hover">
     <thead>
         <tr>
             <th>Article</th><th>Prix unitaire</th><th>Quantité</th><th>Montant en EUR</th><th></th>
@@ -213,7 +205,6 @@ function PanierViewModel() {
 
 ko.applyBindings(new PanierViewModel());
 ```
-
 
 ## Source
 
