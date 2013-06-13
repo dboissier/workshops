@@ -1,46 +1,91 @@
-Le mouvement agile semble être à un tournant de son évolution. Après avoir mis l'accent sur les cadres organisationnels et les outils, 
-les esprits semblent se tourner vers d'autres directions.
+# Retour sur la conférence Agile 2013
+
+* Date : 23 et 24 mai 2013
+* Lieu : Chalet de la Porte Jaune
 
 
+Après une orientation autour des cadres organisationnels et de retours d'expérience sur leur application lors des années précédentes, j'ai pu apprécier cette 
+édition 2013 dont l'esprit et les réflexions semblaient se tourner vers d'autres directions.
 
-# Processus YYY, méthode XXX, outil ZZZ
+## Valeur
 
+Peter Stevens annonce la couleur en revenant sur le [Manifeste Agile](http://agilemanifesto.org/). Il met en exergue la citation suivante :
+
+> We are uncovering better ways of developing software by doing it and helping others do it.
+
+Il insiste sur les termes *better ways*. De ce point de départ, ont émergées les valeurs et sur quoi elles apportent de la valeur :
+
+> *Individuals and interactions* over processes and tools
+>
+> *Working software* over comprehensive documentation
+>
+> *Customer collaboration* over contract negotiation
+>
+> *Responding to change* over following a plan
+
+La dernière phrase du Manifeste est importante :
+
+> That is, while there is value in the items on the right, we value the items on the left more.
+
+Les cadres organisationnels et outils dit "Agile" appliquent ces valeurs-ci. Elles répondent à la problématique de 
+l'apport de valeur dans un logiciel destiné à un client et/ou utilisateur.
+
+XP, SCRUM, CRISTAL, KANBAN sont les plus connus. Elles offrent une boite à outils dont l'usage peut répondre à un problème que l'équipe rencontre.
+Par exemple, la réunion quotidienne améliore le partage d'information entre les divers membres de l'équipe. Elle permet de faire réagir l'équipe et peut-être prendre des décisions en fonction de l'importance de l'information reçue.
+Cet outil s'appuie sur les valeurs "Individus et interactions" et "Responding to change".
+
+Or, suivant les conversations et bien la pratique quotidienne des rituels et artefacts mis en place de l'équipe, j'avais l'impression 
+que nous suivions le processus agile par routine, sans vraiment se dire pourquoi nous pratiquons tout cela puisqu'il "suffit de suivre le plan".
+
+Lorsqu'il y avait une suggestion d'amélioreer un aspect de l'organisation, il y avait cette remarque 
+
+> "Oui, mais dans ce cas-là, nous ne faisons plus de SCRUM."
+
+Quel problème cela pose si ce outil nous permet de résoudre un obstacle, peu importe que nous soyons "hors cadre"  ?
+
+## Processus YYY, méthode XXX, outil ZZZ
 
 Le retour d'expérience sur la mise en place d'une organisation en flux tendu par Oliver Arzon fut riche en information. A la fois
 sur ce qu'il a mis en place et à la fois sur certaines personnes présentes dans l'auditoire.
 
-Il a expliqué la mutation de l'organisation de son équipe, point par point en donnant des arguments pertinents et ce sans donner ni étiquette, ni de terme "à la mode"
+Il a expliqué la mutation de l'organisation de son équipe, point par point en donnant des arguments pertinents et ce sans évoquer de terme "agile à la mode".
 
-Par exemple, le tableau de taches SCRUM a été remplacé par un tableau qui visualise toute la chaine de production. Il n'a pas évoqué le mot Kanban alors que dans
- l'auditoire, par réflexe pavlovien, il a été chuchoté (j'ai fait parti).
+Par exemple, le tableau de taches SCRUM a été remplacé par un tableau qui visualise toute la chaine de production. Il n'a pas évoqué le mot *Kanban* alors que dans
+ l'auditoire, par réflexe pavlovien, certains (dont j'en faisais parti) évoquaient tout de suite le terme.
+ 
 Ensuite, il a dit qu'il avait supprimé la rétrospective bi-mensuelle puisque l'équipe travaillait en flux tendu. Tout de suite,
 des voix se sont élevées pour exprimer leur indignation, et ce avant qu'il ne puisse en expliquer les raisons.
 
 C'est à ce moment-là que je me suis rendu compte qu'il y avait un problème de fond.
 
-L'avènement des boites à outils telles que XP (eXtreme Programming), SCRUM, CRISTAL, KANBAN, et autres a permis aux équipes de travailler de manière plus efficace, plus maîtrisée et plus sereine.
+L'avènement des boites à outils telles que XP (eXtreme Programming), SCRUM, CRISTAL, KANBAN, et autres a permis aux équipes de travailler de manière plus efficace, plus maîtrisée et plus sereine. 
+Rappelons que ces outils ont été élaborés, expérimentés sur le terrain et n'ont pas été le fruit d'un travail théorique ou scientifique. Juste une idée et vérifier si elle convient à un problème. Si oui, la partager.
 
-De ces mouvements, sont nés certaines écoles de pensée qui parfois, pour des considérations opportunistes, voire mercantiles, nuisent finalement à l'idée de ce qu'est finalement l'Agilité. 
+De ces mouvements, sont nés certaines écoles de pensée qui, parfois, pour des considérations opportunistes, voire mercantiles, nuisent finalement à l'idée de ce qu'est finalement l'Agilité.
 
 "XXX est meilleure que YYY"
-"Quoi ?! tu ne fais pas ce rituel ?! Mais tu délires ?!"
+"Quoi ?! tu ne fais pas de retro à la fin de chaque itération ?! Mais tu délires ?!"
 
 Olivier a soulevé une question sur le côté "religion" de certains mouvements agile. Effectivement, on entend ou on voit parfois le terme "évangéliste".
 
+De quel droit, nous pouvons prétendre que l'outil XXX ou la méthode YYY est obligatoire pour que l'équipe s'améliore ?
 
-De quel droit, nous pouvons prétendre que l'outil XXX ou la méthode YYY est obligatoire ?
-Ne nous sommes pas arrogants lorsqu'une équipe dit qu'elle n'applique pas tel ou tel rituel parce qu'elle n'en tire aucune valeur ?
+Lorsqu'une équipe ne réussit pas à appliquer certaines pratiques, n'est-ce que pas arrogant de dire qu'elle est mauvaise ?
 
+Quelles valeurs possèdent une équipe et comment marier celles issues de l'agilité afin que l'équipe puisse délivrer de la valeur tout en améliorant la qualité du produit et l'efficacité du travail
 
-Valeur, j'ai entendu ce terme lors des conférences des dizaines de fois.
+L'atelier de Peter Steven sur les valeurs françaises et les valeurs de l'agilité était intéressant car quelques caractéristiques de l'individu français pouvaient expliquer pourquoi certains projets n'arrivaient pas à effectuer une transistion vers l'agilité.
 
+La présentation de Hoang An sur la mise en place de l'agilité dans une équipe offshore au vietnam illustre bien ce point-là.
 
-Peter Steven lors de sa keynote est revenu sur le Manifeste Agile notamment sur le but :
+Elle s'est rendue compte que demander à une équipe d'appliquer les rituels agile stricto sensus n'est pas aussi simple que d'appliquer un décalco sur la peau.
+Elle explique très bien à travers la métaphore de la banane (si elle est vietnamienne de peau, elle a un esprit occidental) qu'elle
+a du s'imprégner de la culture locale vietnamienne. Comment travaille le Vietnamien ? Quelle est sa relation vis à vis de son manager, de ses collègues ? Quelle est sa vision de son travail quotidien ?
+En ayant les réponses à ces questions, elle a su adapter les outils issues de l'Agilité aux valeurs de l'équipe pour un résultat identique.
+Par exemple, lors du daily, dire "Je rencontre un problème sur cette tache" à toute l'équipe est difficile pour un vietnamien car dans la culture asiatique cela revient à perdre la face.
+La solution a été de laisser la personne de mettre une pastille rouge sur la tache/story afin d'indiquer qu'il y a un problème.
+Au daily, l'équipe entière discute sur les taches/stories qui comportent ces pastilles et les adresser
 
-We are uncovering better ways of developing
-software by doing it and helping others do it.
-
-Il a insisté sur les mots *better ways*.
 
 
 De ce but, sont nées les valeurs de l'Agilité. Cette piqure de rappel réveille un peu les consciences (dont j'ai fait parti) sur l'utilité des méthodes agiles.
