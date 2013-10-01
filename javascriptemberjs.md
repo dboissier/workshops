@@ -1,1 +1,0 @@
-# Ember JS tutorial
