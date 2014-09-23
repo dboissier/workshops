@@ -19,11 +19,15 @@ bgBlue = rgb 100 220 255
 rectWidth  = 320
 recHeight = 200
 
+format_direction : (Int, Int) -> String
+format_direction (x, y) =
+     "KB direction: {" ++ show x ++ ", " ++ show y ++ "}"
+
 display : { x:Int, y:Int } -> Element
 display {x, y} = collage rectWidth recHeight [
              filled bgBlue <| rect rectWidth recHeight
            , toForm rabbitImg
-           , move (-100, 80) <| toForm <| leftAligned <| toText ("KB input: {" ++ show x ++ ", " ++ show y ++ "}")
+           , move (0, 80) <| toForm <| leftAligned <| toText <| format_direction (x, y)
        ]
        
 main : Signal Element
