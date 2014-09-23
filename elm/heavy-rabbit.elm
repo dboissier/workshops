@@ -19,15 +19,15 @@ bgBlue = rgb 100 220 255
 rectWidth  = 320
 recHeight = 200
 
-format_direction : (Int, Int) -> String
-format_direction (x, y) =
-     "KB direction: {" ++ show x ++ ", " ++ show y ++ "}"
+format_direction : {x: Int, y: Int} -> String
+format_direction direction =
+     "KB direction: " ++ show direction.x ++ ", " ++ show direction.y ++ "}"
 
-display : { x:Int, y:Int } -> Element
-display {x, y} = collage rectWidth recHeight [
+display : {x: Int, y: Int} -> Element
+display direction = collage rectWidth recHeight [
              filled bgBlue <| rect rectWidth recHeight
            , toForm rabbitImg
-           , move (0, 80) <| toForm <| leftAligned <| toText <| format_direction (x, y)
+           , move (0, 80) <| toForm <| leftAligned <| toText <| format_direction direction
        ]
        
 main : Signal Element
