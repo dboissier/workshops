@@ -5,7 +5,6 @@ import Keyboard
 import Text
 
 -- Inputs
-delta = inSeconds <~ fps 30
 
 
 -- Model
