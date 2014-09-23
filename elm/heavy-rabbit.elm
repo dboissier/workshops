@@ -5,7 +5,7 @@ delta = inSeconds <~ fps 30
 
 
 -- Model
-rabbit = image 80 100 "http://www.canardpc.com/img/couly/img141.png"
+rabbitImg = image 80 100 "http://www.canardpc.com/img/couly/img141.png"
 
 -- Updates
 
@@ -19,5 +19,5 @@ recHeight = 600
 main : Element
 main = collage rectWidth recHeight [
              filled bgBlue <| rect rectWidth recHeight
-           , toForm rabbit
+           , toForm rabbitImg
        ]
